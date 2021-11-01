@@ -4,6 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 import { getSortedPostData } from '../lib/posts';
 import Link from 'next/link'
 
+
 export async function getStaticProps(){
   const allPostsData = getSortedPostData();
   return{
